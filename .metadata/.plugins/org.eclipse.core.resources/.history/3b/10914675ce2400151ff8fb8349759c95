@@ -29,7 +29,7 @@ public class Main
 		
 		Main.frame.addKeyListener(new KeyManager());
 		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-		frame.setResizable(false);
+		frame.setResizable(true);
 		p.setX(5);
 		p.setY(67);
 		p.updatePosition();

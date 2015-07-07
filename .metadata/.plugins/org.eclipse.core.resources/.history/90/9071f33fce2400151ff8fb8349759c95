@@ -28,8 +28,8 @@ public class Main
 	{
 		
 		Main.frame.addKeyListener(new KeyManager());
-		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-		frame.setResizable(false);
+		frame.setBounds(0, 0, 1200, 1000);
+		frame.setVisible(true);
 		p.setX(5);
 		p.setY(67);
 		p.updatePosition();

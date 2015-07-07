@@ -2,7 +2,6 @@ package tv.lksbrm.templegame;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import javax.swing.JFrame;
 
 import tv.lksbrm.templegame.controls.KeyManager;
 import tv.lksbrm.templegame.gui.Frame;
@@ -28,8 +27,6 @@ public class Main
 	{
 		
 		Main.frame.addKeyListener(new KeyManager());
-		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-		frame.setResizable(false);
 		p.setX(5);
 		p.setY(67);
 		p.updatePosition();
